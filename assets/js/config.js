@@ -12,8 +12,8 @@ let config = {
   // Социальные сети
   social: {
     telegram: '@d3pl0yx',
-    steam: 'Th3FullShow',
-    vk: 'fullshow1337',
+    youtube: 'Y',
+    github: 'D3pl0yx',
   },
 
 
