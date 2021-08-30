@@ -1,1 +1,0 @@
-# syzcoycosuvsgix.github.io
