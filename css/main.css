@@ -103,7 +103,7 @@ html {
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 14px;
+    font-size: 25px;
 	overflow: hidden;
   }
 }
@@ -306,8 +306,8 @@ body {
 
 @keyframes play {
   100% {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
   }
 }
 
@@ -321,7 +321,7 @@ body {
 .asif-page-info-title {
   font-family: "VT323";
   text-align: center;
-  font-size: 20rem;
+  font-size: 10rem;
   color: #f5323c;
   text-shadow: 4px 4px 0 rgba(255, 0, 55, 0.6);
   -webkit-transform: scale(0);
