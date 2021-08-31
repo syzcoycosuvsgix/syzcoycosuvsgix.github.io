@@ -16,9 +16,9 @@ let config = {
 
   // Социальные сети
   social: {
-    telegram: '@d3pl0yx',
-    youtube: 'd3pl0yx',
-    github: 'd3pl0yx',
+    telegram: 'D3pl0yX',
+    youtube: 'UCa9tLAc7Fp8nB7hNk2oXvgQ',
+    github: 'D3pl0yx',
     gift: 'DENTLY',
   },
 
