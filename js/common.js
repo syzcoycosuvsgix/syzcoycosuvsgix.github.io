@@ -44,7 +44,7 @@ function init() {
       el: '#asif-page',
     
       data: {
-        title: config.title,
+        title: <big>d3pl0yx</big>,
         titleVisible: false,
         copyrightText: config.copyrightText,
         social: config.social,
