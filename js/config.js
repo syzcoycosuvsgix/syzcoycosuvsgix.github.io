@@ -12,7 +12,7 @@ let config = {
   showDelay: 6.5, 
 
   // Заголовок
-  title: 'full show',
+  title: 'd3pl0yx',
 
   // Социальные сети
   social: {
@@ -42,7 +42,7 @@ let config = {
 
 
   // Текст копирайта
-  copyrightText: 'developed by fullshow',
+  copyrightText: 'soon...',
   // Цвет копирайта
   copyrightTextColor: '#08f900',
 
