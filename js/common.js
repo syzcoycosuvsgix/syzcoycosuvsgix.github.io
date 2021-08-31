@@ -61,23 +61,22 @@ function init() {
         SOCIAL: {
           telegram(data) {
             let username = data.trim();
-            username = username.replace('@', '');
             return `https://t.me/${username}`;
           },
     
           youtube(data) {
-            let username = data.trim();
-            return `https://www.youtube.com/channel/${username}`;
+            let channel = data.trim();
+            return `https://www.youtube.com/channel/${channel}`;
           },
     
           gift(data) {
-            let username = data.trim();
-            return 'https://qiwi.com/n/${username}';
+            let name = data.trim();
+            return 'https://qiwi.com/n/${name}';
           },
 
           github(data) {
-            let username = data.trim();
-            return 'https://github.com/${username}';
+            let repo = data.trim();
+            return 'https://github.com/${repo}';
           }
         }
       },
