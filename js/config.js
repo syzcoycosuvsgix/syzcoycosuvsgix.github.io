@@ -1,20 +1,15 @@
-/* 
-  Конифг для твоего сайта
-  Можешь менять данные
-*/
-
 let config = {
 
-  // Задержка загрузки (1 секунда)
+  // Задержка загрузки
   preloaderDelay: 1,
 
-  // Задержка появления видео (4.2 секунды)
-  showDelay: 1, 
+  // Задержка видео
+  showDelay: 1.1, 
 
-  // Заголовок
+  // Название
   title: 'd3pl0yx',
 
-  // Социальные сети
+  // Кнопочки
   social: {
     telegram: 'D3pl0yX',
     youtube: 'UCa9tLAc7Fp8nB7hNk2oXvgQ',
@@ -30,15 +25,15 @@ let config = {
   preloaderColor: '#f5323c',
 
 
-  // Цвет кнопки play
+  // Цвет кнопки Play
   playButtonColor: '#f5323c',
-  // Цвет тени кнопки play
+  // Тень кнопки Play
   playButtonShadowColor: 'rgba(255, 0, 55, 5.0)',
 
 
-  // Цвет заголовка
+  // Цвет названия
   titleColor: '#FF0000',
-  // Цвет тени загаловка
+  // Тень названия
   titleShadowColor: 'rgba(255, 0, 55, 0.6)',
 
 
@@ -49,6 +44,6 @@ let config = {
 
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
-  // Цвет тени иконок социальных сетей
+  // Цвет тени социальных сетей
   socialShadowColor: 'rgba(255, 255, 255, 0.2)',
 }
