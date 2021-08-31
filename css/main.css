@@ -64,19 +64,24 @@
   content: '💃';
 }
 
-/* '' */
-.icon-vk:before {
-  content: '😂';
+/* 'GitHub' */
+.icon-github:before {
+  content: '🐱';
 }
 
-/* '' */
-.icon-steam:before {
-  content: '🤔';
+/* 'Qiwi' /*
+.icon-qiwi:before {
+  content: '💸';
 }
 
-/* '' */
+/* 'YouTube' */
+.icon-youtube:before {
+  content: '📽️';
+}
+
+/* 'Telegram' */
 .icon-telegram:before {
-  content: '\f2c6';
+  content: '💬';
 }
 
 /* '' */
