@@ -17,8 +17,9 @@ let config = {
   // Социальные сети
   social: {
     telegram: '@d3pl0yx',
-    steam: 'd3pl0yx',
-    vk: 'd3pl0yx',
+    youtube: 'd3pl0yx',
+    github: 'd3pl0yx',
+    qiwi: 'DENTLY',
   },
 
 
