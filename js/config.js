@@ -12,7 +12,7 @@ let config = {
   showDelay: 1, 
 
   // Заголовок
-  title: 'd3pl0yx',
+  title: '<b>d3pl0yx</b>',
 
   // Социальные сети
   social: {
