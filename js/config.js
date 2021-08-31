@@ -9,14 +9,14 @@ let config = {
   preloaderDelay: 1,
 
   // Задержка появления видео (4.2 секунды)
-  showDelay: 6.5, 
+  showDelay: 1, 
 
   // Заголовок
   title: 'd3pl0yx',
 
   // Социальные сети
   social: {
-    telegram: '@TpaBa_He_Hapkotuk18',
+    telegram: '@d3pl0yx',
     steam: 'Th3FullShow',
     vk: 'linberg337',
   },
@@ -30,21 +30,21 @@ let config = {
 
 
   // Цвет кнопки play
-  playButtonColor: '#ffffff',
+  playButtonColor: '#f5323c',
   // Цвет тени кнопки play
   playButtonShadowColor: 'rgba(255, 0, 55, 5.0)',
 
 
   // Цвет заголовка
-  titleColor: '#08f900',
+  titleColor: '#FF0000',
   // Цвет тени загаловка
   titleShadowColor: 'rgba(255, 0, 55, 0.6)',
 
 
   // Текст копирайта
-  copyrightText: 'soon...',
+  copyrightText: 'soon..',
   // Цвет копирайта
-  copyrightTextColor: '#08f900',
+  copyrightTextColor: '#f5323c',
 
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
