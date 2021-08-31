@@ -71,12 +71,12 @@ function init() {
     
           gift(data) {
             let name = data.trim();
-            return 'https://qiwi.com/n/${name}';
+            return `https://qiwi.com/n/${name}`;
           },
 
           github(data) {
             let repo = data.trim();
-            return 'https://github.com/${repo}';
+            return `https://github.com/${repo}`;
           }
         }
       },
