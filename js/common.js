@@ -70,10 +70,10 @@ function init() {
             return `https://www.youtube.com/channel/${username}`;
           },
     
-          qiwi(data) {
+          gift(data) {
             let username = data.trim();
             return 'https://qiwi.com/n/${username}';
-          }
+          },
 
           github(data) {
             let username = data.trim();
