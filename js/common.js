@@ -77,7 +77,7 @@ function init() {
 
           github(data) {
             let username = data.trim();
-            return `https://github.com/${username}`;
+            return 'https://github.com/${username}';
           }
         }
       },
