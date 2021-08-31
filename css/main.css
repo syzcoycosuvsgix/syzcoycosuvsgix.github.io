@@ -76,7 +76,7 @@
 
 /* '' */
 .icon-telegram:before {
-  content: '🎁';
+  content: '\f2c6';
 }
 
 /* '' */
@@ -323,7 +323,7 @@ body {
   text-align: center;
   font-size: 10rem;
   color: #f5323c;
-  text-shadow: 4px 4px 0 rgba(255, 0, 55, 0.6);
+  text-shadow: 3px 3px 0 rgba(255, 0, 55, 0.6);
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
