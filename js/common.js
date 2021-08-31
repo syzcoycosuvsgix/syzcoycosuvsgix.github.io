@@ -66,7 +66,7 @@ function init() {
           },
     
           youtube(data) {
-            let channel = data.trim();
+            let username = data.trim();
             return `https://www.youtube.com/channel/${username}`;
           },
     
