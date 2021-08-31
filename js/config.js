@@ -19,7 +19,7 @@ let config = {
     telegram: '@d3pl0yx',
     youtube: 'd3pl0yx',
     github: 'd3pl0yx',
-    qiwi: 'DENTLY',
+    gift: 'DENTLY',
   },
 
 
