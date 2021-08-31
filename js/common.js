@@ -65,14 +65,19 @@ function init() {
             return `https://t.me/${username}`;
           },
     
-          steam(data) {
-            let username = data.trim();
-            return `https://steamcommunity.com/id/${username}`;
+          youtube(data) {
+            let channel = data.trim();
+            return `https://www.youtube.com/channel/${username}`;
           },
     
-          vk(data) {
+          qiwi(data) {
             let username = data.trim();
-            return `https://vk.com/${username}`;
+            return 'https://qiwi.com/n/${username}';
+          }
+
+          github(data) {
+            let username = data.trim();
+            return `https://github.com/${username}`;
           }
         }
       },
