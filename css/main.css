@@ -61,22 +61,22 @@
 }
 
 .icon-instagram:before {
-  content: '\f16d';
+  content: '💃';
 }
 
 /* '' */
 .icon-vk:before {
-  content: '\f189';
+  content: '😂';
 }
 
 /* '' */
 .icon-steam:before {
-  content: '\f1b6';
+  content: '🤔';
 }
 
 /* '' */
 .icon-telegram:before {
-  content: '\f2c6';
+  content: '🎁';
 }
 
 /* '' */
@@ -207,7 +207,7 @@ body {
   text-align: center;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #300A24;
   z-index: 9999;
   -webkit-transition: 1s;
   transition: 1s;
@@ -306,8 +306,8 @@ body {
 
 @keyframes play {
   100% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
 }
 
@@ -321,9 +321,9 @@ body {
 .asif-page-info-title {
   font-family: "VT323";
   text-align: center;
-  font-size: 10rem;
+  font-size: 20rem;
   color: #f5323c;
-  text-shadow: 3px 3px 0 rgba(255, 0, 55, 0.6);
+  text-shadow: 4px 4px 0 rgba(255, 0, 55, 0.6);
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
