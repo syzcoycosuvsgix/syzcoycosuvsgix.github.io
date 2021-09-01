@@ -1,0 +1,11 @@
+<?php
+ if(isset($_POST['submit']))
+ {
+   $output=shell_exec('bash /test.sh');
+   echo $output;
+ }
+?>
+
+<form action="" method="post">
+<input type="submit" name="submit" value="Получить Прокси">
+</form>
