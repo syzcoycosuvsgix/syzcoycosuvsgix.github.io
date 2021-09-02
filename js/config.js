@@ -1,10 +1,10 @@
 let config = {
 
   // Задержка загрузки
-  preloaderDelay: 1,
+  preloaderDelay: 0.5,
 
   // Задержка видео
-  showDelay: 1.1, 
+  showDelay: 1, 
 
   // Название
   title: 'd3pl0yx',
@@ -26,24 +26,24 @@ let config = {
 
 
   // Цвет кнопки Play
-  playButtonColor: '#f5323c',
+  playButtonColor: '#ff0000',
   // Тень кнопки Play
-  playButtonShadowColor: 'rgba(255, 0, 55, 5.0)',
+  playButtonShadowColor: 'rgba(255, 0, 55, 0.7)',
 
 
   // Цвет названия
   titleColor: '#FF0000',
   // Тень названия
-  titleShadowColor: 'rgba(255, 0, 55, 0.6)',
+  titleShadowColor: 'rgba(255, 0, 55, 0.7)',
 
 
   // Текст копирайта
   copyrightText: 'soon..',
   // Цвет копирайта
-  copyrightTextColor: '#f5323c',
+  copyrightTextColor: '#ff0000',
 
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
   // Цвет тени социальных сетей
-  socialShadowColor: 'rgba(255, 255, 255, 0.2)',
+  socialShadowColor: 'rgba(255, 255, 255, 0.7)',
 }
