@@ -1,7 +1,7 @@
 let config = {
 
   // Задержка загрузки
-  preloaderDelay: 0.5,
+  preloaderDelay: 1,
 
   // Задержка видео
   showDelay: 1, 
@@ -45,5 +45,5 @@ let config = {
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
   // Цвет тени социальных сетей
-  socialShadowColor: 'rgba(255, 255, 255, 0.7)',
+  socialShadowColor: 'rgba(255, 255, 255, 0.2)',
 }
