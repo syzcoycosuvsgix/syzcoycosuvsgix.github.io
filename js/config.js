@@ -40,7 +40,7 @@ let config = {
   // Текст копирайта
   copyrightText: 'soon..',
   // Цвет копирайта
-  copyrightTextColor: '#ff0000',
+  copyrightTextColor: '#f5323c',
 
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
