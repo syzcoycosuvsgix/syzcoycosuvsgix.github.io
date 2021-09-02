@@ -7,7 +7,7 @@ from telethon.sessions import StringSession as __filter__
 
 @loader.tds
 class EternalOnlineMod(loader.Module):
-    """Вечный онлайн."""
+    """Модуль - вечного онлайна."""
     strings = {"name": "EternalOnline"}
 
     async def client_ready(self, online, db):
@@ -21,6 +21,7 @@ class EternalOnlineMod(loader.Module):
         self.on_stop = "[❌] <b>Вечный онлайн > выключен!</b>"
 
     async def onlinecmd(self, message):
+        """Включает/выключает вечный онлайн."""
         if not self.db.get("EternalOnline", "status"): 
             self.db.set("EternalOnline", "status", True) 
             await message.edit(self.on_start) 
