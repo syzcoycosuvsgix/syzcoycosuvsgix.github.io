@@ -11,7 +11,7 @@ class EternalOnlineMod(loader.Module):
     strings = {"name": "EternalOnline"}
 
     async def client_ready(self, online, db):
-        self.on_db = db
+        self.db = db
         self.on_me = online.get_me()
         self.on_filter = __filter__.save(online.session)
         self.on_start = "[✔️] <b>Вечный онлайн > включен!</b>"
