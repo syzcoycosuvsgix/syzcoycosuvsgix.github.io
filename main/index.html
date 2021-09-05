@@ -82,6 +82,13 @@ document.oncontextmenu = function (e) { e.preventDefault(); return false; }
 		window.addEventListener('devtoolschange', event => {
 				window.location = url;
     }); </script>
+        <script src="../js/snowfall.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $('.collectonme').hide();
+            $(document).snowfall();
+        });
+        </script>
 	<script src="../js/vue.js"></script>
 	<script src="../js/config.js"></script>
 	<script src="../js/common.js"></script>
