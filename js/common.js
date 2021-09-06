@@ -44,7 +44,7 @@ function init() {
       el: '#asif-page',
     
       data: {
-        title: "vrisppy",
+        title: config.title,
         titleVisible: false,
         copyrightText: config.copyrightText,
         social: config.social,
