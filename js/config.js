@@ -7,7 +7,7 @@ let config = {
   showDelay: 1, 
 
   // Название
-  title: 'd3pl0yx',
+  title: 'vrisppy',
 
   // Кнопочки
   social: {
