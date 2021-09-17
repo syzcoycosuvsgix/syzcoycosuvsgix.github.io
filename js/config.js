@@ -7,11 +7,11 @@ let config = {
   showDelay: 1, 
 
   // Название
-  title: 'vrisppy',
+  title: 'msizen',
 
   // Кнопочки
   social: {
-    telegram: 'D3pl0yX',
+    telegram: 'msizen',
     youtube: 'UCa9tLAc7Fp8nB7hNk2oXvgQ',
     github: 'D3pl0yx',
     gift: 'DENTLY',
