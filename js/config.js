@@ -13,7 +13,6 @@ let config = {
   social: {
     telegram: 'MsizeN',
     youtube: 'UCa9tLAc7Fp8nB7hNk2oXvgQ',
-    github: 'D3pl0yx',
     gift: 'DENTLY',
   },
 
