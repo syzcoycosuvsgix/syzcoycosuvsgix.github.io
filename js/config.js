@@ -7,7 +7,7 @@ let config = {
   showDelay: 1, 
 
   // Название
-  title: 'msizen',
+  title: 'MsizeN',
 
   // Кнопочки
   social: {
