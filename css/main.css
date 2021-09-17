@@ -289,7 +289,7 @@ body {
   cursor: pointer;
   color: #f5323c;
   text-align: center;
-  height: 100px;
+  height: 90px;
   -webkit-animation: play linear alternate 1s infinite;
           animation: play linear alternate 1s infinite;
   -webkit-transition: 200ms;
