@@ -37,12 +37,12 @@ let config = {
 
 
   // Текст копирайта
-  copyrightText: 'soon..',
+  copyrightText: '\t',
   // Цвет копирайта
   copyrightTextColor: '#f5323c',
 
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
   // Цвет тени социальных сетей
-  socialShadowColor: 'rgba(255, 255, 255, 0.2)',
+  socialShadowColor: 'rgba(255, 0, 55, 0.2)',
 }
