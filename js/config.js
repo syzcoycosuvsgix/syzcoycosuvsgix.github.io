@@ -37,7 +37,7 @@ let config = {
 
 
   // Текст копирайта
-  copyrightText: '\t',
+  copyrightText: '\t\t\t\t\t\t\t\t\t\t',
   // Цвет копирайта
   copyrightTextColor: '#f5323c',
 
