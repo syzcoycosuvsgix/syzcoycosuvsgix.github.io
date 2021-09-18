@@ -147,6 +147,7 @@ function init() {
         CopyRightStyle() {
           return {
             color: this.copyrightTextColor,
+            textShadow: `1px 1px 0 ${this.copyrightShadowColor}`,
           }
         },
 
