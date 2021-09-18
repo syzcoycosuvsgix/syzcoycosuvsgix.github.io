@@ -71,7 +71,7 @@
 
 /* 'Qiwi' */
 .icon-gift:before {
-  content: url(../images/logo.png);
+  content: url("../images/logo.png");
 }
 
 /* 'YouTube' */
