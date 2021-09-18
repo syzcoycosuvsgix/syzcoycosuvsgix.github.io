@@ -71,24 +71,24 @@
 
 /* 'Qiwi' */
 .icon-gift:before {
-  content: url("../images/logo.png");
+  content: "🤔";
 }
 
 /* 'YouTube' */
 .icon-youtube:before {
-  content: url("../images/logo.png");
+  content: "😭";
 }
 
 /* 'Telegram' */
 .icon-telegram:before {
-  content: url("../images/logo.png");
+  content: "😋";
 }
 
 /* '' */
 html {
   line-height: 1.4;
   font-size: 18px;
-  color: #ffff00;
+  color: #ffffff;
   height: 100%;
 }
 
