@@ -37,7 +37,7 @@ let config = {
 
 
   // Текст копирайта
-  copyrightText: 'python..',
+  copyrightText: 'music`^1000\n`lover',
   // Цвет копирайта
   copyrightTextColor: '#f5323c',
   // Цвет тени копирайте
