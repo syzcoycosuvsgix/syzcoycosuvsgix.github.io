@@ -61,17 +61,17 @@ function init() {
         SOCIAL: {
           telegram(data) {
             let username = data.trim();
-            return `https://t.me/${username}`;
+            return `location.href="https://t.me/${username}"`;
           },
     
           youtube(data) {
             let channel = data.trim();
-            return `https://www.youtube.com/channel/${channel}`;
+            return `location.href="https://www.youtube.com/channel/${channel}"`;
           },
     
           gift(data) {
             let name = data.trim();
-            return `https://qiwi.com/n/${name}`;
+            return `location.href="https://qiwi.com/n/${name}"`;
           },
 
           github(data) {
