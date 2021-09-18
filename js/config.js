@@ -40,6 +40,8 @@ let config = {
   copyrightText: 'python..',
   // Цвет копирайта
   copyrightTextColor: '#f5323c',
+  // Цвет тени копирайте
+  copyrightShadowColor: 'rgba(255, 0, 55, 0.1)',
 
   // Цвет иконок социальных сетей
   socialColor: '#FF0000',
