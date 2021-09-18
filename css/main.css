@@ -71,17 +71,17 @@
 
 /* 'Qiwi' */
 .icon-gift:before {
-  content: "🤔";
+  content: "💸";
 }
 
 /* 'YouTube' */
 .icon-youtube:before {
-  content: "😭";
+  content: "📽️";
 }
 
 /* 'Telegram' */
 .icon-telegram:before {
-  content: url("https://cdn3.vectorstock.com/i/1000x1000/04/32/telegram-logo-icon-vector-27990432.jpg");
+  content: "💬";
 }
 
 /* '' */
