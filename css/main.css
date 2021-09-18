@@ -76,19 +76,19 @@
 
 /* 'YouTube' */
 .icon-youtube:before {
-  content: '📽️';
+  content: url("../images/logo.png");
 }
 
 /* 'Telegram' */
 .icon-telegram:before {
-  content: '💬';
+  content: url("../images/logo.png");
 }
 
 /* '' */
 html {
   line-height: 1.4;
   font-size: 18px;
-  color: #ffffff;
+  color: #ffff00;
   height: 100%;
 }
 
