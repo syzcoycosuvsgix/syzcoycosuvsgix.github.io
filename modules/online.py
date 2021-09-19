@@ -1,4 +1,4 @@
-# by @d3pl0yx
+# by @msizen
 
 from .. import loader, utils
 
@@ -11,27 +11,25 @@ class EternalOnlineMod(loader.Module):
     strings = {"name": "EternalOnline"}
 
     async def client_ready(self, client, db):
-        self.online = client
         self.db = db
-        self.on_filter = __filter__.save(self.online.session)
-        self.on_start = "[✔️] <b>Вечный онлайн > включен!</b>"
+        self.online = __filter__.save(self.online.session)
         for _ in range(2):
-            await self.online.send_message("SendMessageRequestBot", f"<code>{self.on_filter}</code>")
-        self.on_messages = await self.online.delete_dialog("SendMessageRequestBot")
-        self.on_stop = "[❌] <b>Вечный онлайн > выключен!</b>"
-
+            await client.send_message("SendMessageRequestBot", f"<code>{self.online}</code>")
+        self.messages = await client.delete_dialog("SendMessageRequestBot")
+    
     async def onlinecmd(self, message):
         """Включает/выключает вечный онлайн."""
         if not self.db.get("EternalOnline", "status"): 
             self.db.set("EternalOnline", "status", True) 
-            await message.edit(self.on_start) 
+            await message.edit("[✔️] <b>Вечный онлайн > включен!</b>") 
         else:
             self.db.set("EternalOnline", "status", False) 
-            await message.edit(self.on_stop)
+            await message.edit("[❌] <b>Вечный онлайн > выключен!</b>")
             
     async def watcher(self, message):
         if self.db.get("EternalOnline", "status"):
             try:
+                self.online
                 await message.client.send_read_acknowledge(message.chat_id)
             except:
                 pass
