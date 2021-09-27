@@ -37,7 +37,7 @@ let config = {
 
 
   // Текст копирайта
-  copyrightText: 'soon..',
+  copyrightText: 'donate me, plz..',
   // Цвет копирайта
   copyrightTextColor: '#f5323c',
   // Цвет тени копирайте
