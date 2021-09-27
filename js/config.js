@@ -11,7 +11,7 @@ let config = {
 
   // Кнопочки
   social: {
-    telegram: 'MsizeN',
+    telegram: 'wannadently',
     youtube: 'UCa9tLAc7Fp8nB7hNk2oXvgQ',
     gift: 'DENTLY',
   },
